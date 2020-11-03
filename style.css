@@ -1,18 +1,30 @@
 body {
     margin: 0;
     background-color: green;
+    color: darkorange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
+p {
+    text-align: center;
+}
 .container {
     position: relative;
-    width: 100%;
+    width: 31rem;
     height: auto;
+    margin-top: 2rem;
 }
 img {
     position: absolute;
     opacity: 0;
-    width: 100%;
-    transition: opacity 1s;
+    width: 30rem;
+    transition: opacity 2s;
+    border-radius: 5rem;
+    border: 0.5rem solid darkgreen; 
 }
 .show {
     opacity: 1;
